@@ -10,7 +10,7 @@ let storageAvailable=true;
 // Account e salvataggio online (Supabase). Senza la libreria l'app funziona solo in locale.
 const SUPA_URL='https://gzbzchdagalsmzciiruy.supabase.co',SUPA_KEY='sb_publishable_Gn3iXrvzeMh1mfdN9Ko1LQ_5cB3vOV8';
 const supa=globalThis.supabase?.createClient?globalThis.supabase.createClient(SUPA_URL,SUPA_KEY):null;
-const BUY_URL='';// link alla pagina di vendita, da inserire
+const BUY_URL='https://payhip.com/b/O0FUp';// link alla pagina di vendita, da inserire
 let full=false,unlockMsg='',paidLoaded=false;
 let user=null,authMode='login',authMsg='',authOk=false,recovering=false,syncTimer,syncing=false,pendingPush=false;
 const validState=x=>!!(x&&x.version===1&&Array.isArray(x.lessons)&&Array.isArray(x.attempts)&&x.cards&&typeof x.cards==='object'&&x.drafts&&typeof x.drafts==='object');
