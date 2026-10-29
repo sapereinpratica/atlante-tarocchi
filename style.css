@@ -76,3 +76,6 @@
 .gymself .rubric{margin:14px 0 8px}.gymself .check{font-size:13.5px;line-height:1.5}.rubricmsg{font-size:13px;font-weight:700;color:var(--purple);margin:0 0 14px}.gymself textarea{min-height:80px}
 .exrub{display:grid;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}.exrub .fieldlabel{margin:0}.exrub .check{font-size:13px}
 .lessonreveal{background:var(--white)}.lessonreveal summary{font-size:13px;color:var(--purple)}.lessonreveal p.tagged{margin:12px 0 0}
+
+.lockpanel .buybig{display:block;width:100%;text-align:center;margin-top:14px;padding:16px 14px;font-size:15px}
+.lockpanel .afterbuy{margin-top:20px;padding-top:16px;border-top:1px solid rgba(0,0,0,.08)}
